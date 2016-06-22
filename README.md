@@ -15,7 +15,7 @@ There are many font properties you can adjust. As a developer there are so many 
 
 `font-family: Arial, Helvetica, san-serif`
 
-Font families are separated by commas allowing us fallback solutionns. If the first font to the left doesn't load the next one to the right will.
+Font families are separated by commas allowing us fallback solutions. If the first font to the left doesn't load, the browser will try the next font to the right until a font loads or the browser falls back to a default font.
 
 `font-size: 100% | 1em | 12pt | 16px`
 
@@ -51,11 +51,11 @@ Text indents affect the first line of a paragraph.
 
 `text-shadow: 3px 3px 10px #000`
 
-Text shadow is a neat CSS3 property that allows you to provide in order: horizontal alignment, vertical alignment, feather, and shadow color. You can check browser support for this property at caniuse.com
+Text shadow is a neat CSS3 property that allows you to provide in order: horizontal alignment, vertical alignment, feather, and shadow color. You can check browser support for this property at [caniuse.com](http://caniuse.com/).
 
 `text-transform: none | uppercase | lowercase | capitalize`
 
-Text transform converts the content text to whichever transform you specifiy.
+Text transform converts the content text to whichever transform you specify.
 
 `letter-spacing: normal | 1em | 12pt | 16px`
 
@@ -108,7 +108,7 @@ p {
 
 Inside the @font-face block surrounded by `{}` curly braces we label our font for future use using the `font-family` property. Then using the `src` property we point to the url location of our web font files and specify the format of each file type.
 
-Then to use the font we simply reference the font name we set previously in the `font-family` property. So to apply to our `p` elements we simple set: ` p { font-family: 'Avenir', Helvetica, sans-serif; }`. our font name `'Avenir'` is followed by fallback fonts `Helvetica` and `sans-serif` in case Avenir has any issue loading.
+Then to use the font we simply reference the font name we set previously in the `font-family` property. So to apply to our `p` elements we simply set: ` p { font-family: 'Avenir', Helvetica, sans-serif; }`. Our font name `'Avenir'` is followed by fallback fonts `Helvetica` and `sans-serif` in case Avenir has any issue loading.
 
 ## Summary
 
@@ -122,3 +122,5 @@ Then to use the font we simply reference the font name we set previously in the 
 - [CSS3.info - Using Web Fonts](http://www.css3.info/preview/web-fonts-with-font-face/)
 - [Web Font Generator](https://www.web-font-generator.com/)
 - [CSS Performance & Organization, Best Practices](http://learn.shayhowe.com/advanced-html-css/performance-organization/)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/css-fonts'>Fonts</a> on Learn.co and start learning to code for free.</p>
