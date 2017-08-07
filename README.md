@@ -108,7 +108,7 @@ p {
 
 Inside the @font-face block surrounded by `{}` curly braces we label our font for future use using the `font-family` property. Then using the `src` property we point to the url location of our web font files and specify the format of each file type.
 
-Then to use the font we simply reference the font name we set previously in the `font-family` property. So to apply to our `p` elements we simply set: ` p { font-family: 'Avenir', Helvetica, sans-serif; }`. Our font name `'Avenir'` is followed by fallback fonts `Helvetica` and `sans-serif` in case Avenir has any issue loading.
+Then to use the font we simply reference the font name we set previously in the `font-family` property. So to apply to our `p` elements we simply set: ` p { font-family: 'Avenir', Helvetica, sans-serif; }`. Our font name, `'Avenir'`, is followed by fallback fonts `Helvetica` and `sans-serif` in case Avenir has any issue loading.
 
 ## Summary
 
